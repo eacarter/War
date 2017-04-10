@@ -10,4 +10,17 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.ford.war.TwoPlayerActivity">
 
+    <Button
+        android:id="@+id/player2draw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Draw"
+        android:rotation="180"/>
+
+    <Button
+        android:id="@+id/player1draw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Draw"
+        android:layout_alignParentBottom="true"/>
 </RelativeLayout>
